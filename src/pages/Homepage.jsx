@@ -1,23 +1,24 @@
 import React from 'react';
+import Footer from '../components/common/Footer';
+import Header from '../components/common/Header';
 import Banner from '../components/layout/Banner';
-import ProductList from '../components/product/ProductList';
-import NewArrivals from '../components/common/NewArrivals';
-import TopSelling from '../components/common/TopSelling';
-import DressStyle from '../components/common/DressStyle';
-import Reviews from '../components/common/Reviews';
+import DressStyle from '../components/layout/DressStyle';
+import NewArrivals from '../components/layout/NewArrivals';
+import Reviews from '../components/layout/Reviews';
+import TopSelling from '../components/layout/TopSelling';
 
 
 function Homepage(props) {
     return (
-        <main className='pt-32 md:pt-36'>
+        // pt-32 md:pt-36
+        <main className=''>
+            <Header/>
             <Banner />
-            {/* <ProductList/> */}
             <NewArrivals/>
             <TopSelling/>
             <DressStyle/>
             <Reviews/>
-
-            
+            <Footer/>
         </main>
     );
 }

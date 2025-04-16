@@ -4,24 +4,24 @@ import products from '../../data/products';
 
 function TopSelling() {
     // Khởi tạo state để kiểm tra đang ở thiết bị mobile hay không
-    const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(false)
 
     useEffect(() => {
         // Hàm kiểm tra kích thước màn hình để cập nhật isMobile
         const handleResize = () => {
-            setIsMobile(window.innerWidth < 768); // <768px thì là mobile
+            setIsMobile(window.innerWidth < 768) // <768px thì là mobile
         };
 
-        handleResize(); // Gọi ngay khi component được render lần đầu
+        handleResize() // Gọi ngay khi component được render lần đầu
 
         // Gán sự kiện resize cho window
-        window.onresize = handleResize;
+        window.onresize = handleResize
 
         // Dọn dẹp khi unmount component
         return () => {
-            window.onresize = null;
-        };
-    }, []);
+            window.onresize = null
+        }
+    }, [])
 
     // Lọc sản phẩm dựa theo kích thước màn hình
     const filteredProducts = products.filter(product =>
@@ -31,7 +31,7 @@ function TopSelling() {
     );
 
     return (
-        <div className="max-w-96 md:max-w-[78rem] my-0 mx-auto pb-16">
+        <section className="max-w-96 md:max-w-[78rem] my-0 mx-auto pb-16">
             <h2 className='pt-10 pb-8 md:pt-16 text-4xl md:text-5xl uppercase text-center font-extrabold'>
                 Top selling
             </h2>
@@ -45,12 +45,12 @@ function TopSelling() {
 
                 {/* Nút View All */}
                 <div className='pt-8 col-span-2 md:col-span-4 flex justify-center'>
-                    <a className="cursor-pointer hover:opacity-50 flex items-center justify-center border rounded-full w-96 h-11 ">
+                    <a className="cursor-pointer hover:opacity-50 flex items-center justify-center border-2 rounded-full w-96 h-11 ">
                         View All
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
