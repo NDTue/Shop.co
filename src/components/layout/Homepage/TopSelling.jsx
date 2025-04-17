@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import ProductCard from '../product/ProductCard';
-import products from '../../data/products';
+import ProductCard from '../../product/ProductCard';
+import products from '../../../data/products';
 
 function TopSelling() {
     // Khởi tạo state để kiểm tra đang ở thiết bị mobile hay không
@@ -31,7 +31,7 @@ function TopSelling() {
     );
 
     return (
-        <section className="max-w-96 md:max-w-[78rem] my-0 mx-auto pb-16">
+        <section id='on-sale' className="max-w-96 md:max-w-[78rem] my-0 mx-auto pb-16">
             <h2 className='pt-10 pb-8 md:pt-16 text-4xl md:text-5xl uppercase text-center font-extrabold'>
                 Top selling
             </h2>

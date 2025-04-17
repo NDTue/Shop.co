@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root {
     --font-integral: "Integral", "Integral Fallback", sans-serif;
     --font-satoshi: "Satoshi", sans-serif;

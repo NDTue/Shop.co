@@ -2,7 +2,7 @@ import React from 'react';
 
 function Banner(props) {
     return (
-        <section className='bg-[#F2F0F1] pt-32 md:pt-36'>
+        <section className='bg-[#F2F0F1] pt-16 md:pt-36'>
             <div className="block md:grid md:grid-cols-2 max-w-96 md:max-w-[78rem] my-0 mx-auto">
                 {/* Left Col */}
                 <div className="flex flex-col justify-center items-start">

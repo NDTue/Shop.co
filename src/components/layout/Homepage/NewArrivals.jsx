@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
-import ProductCard from '../product/ProductCard';   
-import products from '../../data/products';         
+import ProductCard from '../../product/ProductCard';   
+import products from '../../../data/products';         
 
 function NewArrivals() {
     // Khởi tạo state để xác định thiết bị đang là mobile hay không
@@ -31,7 +31,7 @@ function NewArrivals() {
     );
 
     return (
-        <section>
+        <section id='new-arrivals'>
             <div className='max-w-96 md:max-w-[78rem] my-0 mx-auto pb-14 md:pb-16'>
                 <h2 className='pt-10 pb-8 md:pt-16 text-4xl md:text-5xl uppercase text-center font-extrabold'>
                     New Arrivals
