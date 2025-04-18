@@ -41,7 +41,7 @@ function Footer(props) {
                             We have clothes that suits your style and which you’re proud to wear. From women to men.
                         </p>
 
-                        {/* Socials */}
+                        {/* Socials Network */}
                         <div className="flex flex-col mt-5 md:mt-3 md:flex-row md:justify-around md:items-center gap-3 md:gap-0">
                             {/* Row 1 for mobile - 2 buttons */}
                             <div className="flex md:flex-row w-full md:w-auto md:mr-8">
