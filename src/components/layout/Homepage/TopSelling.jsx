@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../../product/ProductCard';
 import products from '../../../data/products';
+import { Link } from 'react-router-dom';
 
 function TopSelling() {
     // Khởi tạo state để kiểm tra đang ở thiết bị mobile hay không
@@ -45,9 +46,9 @@ function TopSelling() {
 
                 {/* Nút View All */}
                 <div className='pt-8 col-span-2 md:col-span-4 flex justify-center'>
-                    <a className="cursor-pointer hover:opacity-50 flex items-center justify-center border-2 rounded-full w-96 h-11 ">
+                    <Link to='/category' className="cursor-pointer hover:opacity-50 flex items-center justify-center border-2 rounded-full w-96 h-11 ">
                         View All
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

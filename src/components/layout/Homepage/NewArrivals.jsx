@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'; 
 import ProductCard from '../../product/ProductCard';   
 import products from '../../../data/products';         
+import { Link } from 'react-router-dom';
 
 function NewArrivals() {
     // Khởi tạo state để xác định thiết bị đang là mobile hay không
@@ -46,9 +47,9 @@ function NewArrivals() {
 
                     {/* Nút View All nằm ở cuối, chiếm đủ chiều ngang trong grid */}
                     <div className='pt-8 col-span-2 md:col-span-4 flex justify-center'>
-                        <a className="cursor-pointer hover:opacity-50 flex items-center justify-center border-2 rounded-full w-96 h-11 ">
+                        <Link to='/category' className="cursor-pointer hover:opacity-50 flex items-center justify-center border-2 rounded-full w-96 h-11 ">
                             View All
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

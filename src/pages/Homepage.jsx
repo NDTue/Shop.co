@@ -11,16 +11,17 @@ import ValidateForm from './ValidateForm';
 
 function Homepage(props) {
     return (
-        // pt-32 md:pt-36
-        <main className=''>
+        <>
             <Header />
-            <Banner />
-            <NewArrivals />
-            <TopSelling />
-            <DressStyle />
-            <Reviews />
+            <main className=''>
+                <Banner />
+                <NewArrivals />
+                <TopSelling />
+                <DressStyle />
+                <Reviews />
+            </main>
             <Footer />
-        </main>
+        </>
     );
 }
 
