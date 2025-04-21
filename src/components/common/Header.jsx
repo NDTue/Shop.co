@@ -71,7 +71,7 @@ function Header({ props }) {
 
                                 </label>
                                 {/* Sub Nav */}
-                                <ul className='group-hover:block hidden absolute top-10 left-2 bg-black w-28
+                                <ul className='group-hover:block hidden absolute top-10 left-2 bg-white w-28
                                             rounded-3xl shadow-2xl overflow-hidden'>
                                     <li className='hover:bg-slate-100'>
                                         <Link to='/Shirts' className='block p-2'>Shirts</Link>
