@@ -129,7 +129,7 @@ function Header({ props }) {
                             </ul>
                         </li>
                         <Link to='/category'>Shop</Link>
-                        <li><a href="#new-arrivals">On sale</a></li>
+                        <li><a href="#new-arrivals">On Sale</a></li>
                     </ul>
 
                     <div className="flex justify-between items-center gap-3 md:flex-grow">
