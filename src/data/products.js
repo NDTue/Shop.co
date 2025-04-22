@@ -5,6 +5,7 @@ const products = [
         price: 120,
         image: "/assets/products/regular-show-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ const products = [
         price: 240,
         image: "/assets/products/GumballAndDarwin-LongSleeveTshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ const products = [
         price: 180,
         image: "/assets/products/Rick&Morty-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ const products = [
         price: 130,
         image: "/assets/products/whatTimeIsIt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ const products = [
         price: 212,
         image: "/assets/products/VerticalStriped_Shirt.png",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 6,
@@ -40,6 +45,7 @@ const products = [
         price: 120,
         image: "/assets/products/Benson-CrashOut.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 7,
@@ -47,6 +53,7 @@ const products = [
         price: 80,
         image: "/assets/products/LooseFit-Bermuda_Shorts.png",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 8,
@@ -54,6 +61,7 @@ const products = [
         price: 210,
         image: "/assets/products/FadedSkinny_Jeans.png",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 9,
@@ -61,6 +69,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 10,
@@ -68,6 +77,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt-Back.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 11,
@@ -75,6 +85,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt_Wearing.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 12,
@@ -82,6 +93,7 @@ const products = [
         price: 212,
         image: "/assets/products/PoloContrast_Trims.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 13,
@@ -89,6 +101,7 @@ const products = [
         price: 145,
         image: "/assets/products/GradientGraphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 14,
@@ -96,6 +109,7 @@ const products = [
         price: 180,
         image: "/assets/products/PoloTipping_Details.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 15,
@@ -103,6 +117,7 @@ const products = [
         price: 120,
         image: "/assets/products/BlackStriped_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 16,
@@ -110,6 +125,7 @@ const products = [
         price: 120,
         image: "/assets/products/Gumball.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 17,
@@ -117,6 +133,7 @@ const products = [
         price: 240,
         image: "/assets/products/Benson-CrashOut.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 18,
@@ -124,6 +141,7 @@ const products = [
         price: 180,
         image: "/assets/products/Rick&Morty-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 19,
@@ -131,6 +149,7 @@ const products = [
         price: 130,
         image: "/assets/products/Adventure-Time-Pins.jpg",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 20,
@@ -138,6 +157,7 @@ const products = [
         price: 212,
         image: "/assets/products/CheckeredShirt.png",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 21,
@@ -145,6 +165,7 @@ const products = [
         price: 145,
         image: "/assets/products/regular-show-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 22,
@@ -152,6 +173,7 @@ const products = [
         price: 80,
         image: "/assets/products/BlueJeans.jpg",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 23,
@@ -159,6 +181,7 @@ const products = [
         price: 210,
         image: "/assets/products/FadedSkinny_Jeans.png",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 24,
@@ -166,6 +189,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 25,
@@ -173,6 +197,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt-Back.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 26,
@@ -180,6 +205,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt_Wearing.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 27,
@@ -187,6 +213,7 @@ const products = [
         price: 212,
         image: "/assets/products/PoloContrast_Trims.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 28,
@@ -194,6 +221,7 @@ const products = [
         price: 145,
         image: "/assets/products/GradientGraphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 29,
@@ -201,6 +229,7 @@ const products = [
         price: 180,
         image: "/assets/products/PoloTipping_Details.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 30,
@@ -208,6 +237,7 @@ const products = [
         price: 120,
         image: "/assets/products/BlackStriped_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     // Copies
     {
@@ -216,6 +246,7 @@ const products = [
         price: 120,
         image: "/assets/products/Gumball.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 32,
@@ -223,6 +254,7 @@ const products = [
         price: 240,
         image: "/assets/products/Benson-CrashOut.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 33,
@@ -230,6 +262,7 @@ const products = [
         price: 180,
         image: "/assets/products/Rick&Morty-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 34,
@@ -237,6 +270,7 @@ const products = [
         price: 130,
         image: "/assets/products/Adventure-Time-Pins.jpg",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 35,
@@ -244,6 +278,7 @@ const products = [
         price: 212,
         image: "/assets/products/VerticalStriped_Shirt.png",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 36,
@@ -251,6 +286,7 @@ const products = [
         price: 145,
         image: "/assets/products/regular-show-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 37,
@@ -258,6 +294,7 @@ const products = [
         price: 80,
         image: "/assets/products/whatTimeIsIt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 38,
@@ -265,6 +302,7 @@ const products = [
         price: 210,
         image: "/assets/products/BlueJeans.jpg",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 39,
@@ -272,6 +310,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 40,
@@ -279,6 +318,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt-Back.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 42,
@@ -286,6 +326,7 @@ const products = [
         price: 120,
         image: "/assets/products/T-shirt_with_Tape.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 42,
@@ -293,6 +334,7 @@ const products = [
         price: 212,
         image: "/assets/products/PoloContrast_Trims.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 43,
@@ -300,6 +342,7 @@ const products = [
         price: 145,
         image: "/assets/products/GradientGraphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 44,
@@ -307,6 +350,7 @@ const products = [
         price: 180,
         image: "/assets/products/PoloTipping_Details.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 45,
@@ -314,6 +358,7 @@ const products = [
         price: 120,
         image: "/assets/products/Benson-CrashOut.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 46,
@@ -321,6 +366,7 @@ const products = [
         price: 120,
         image: "/assets/products/Gumball.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 47,
@@ -328,6 +374,7 @@ const products = [
         price: 240,
         image: "/assets/products/Benson-CrashOut.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 48,
@@ -335,6 +382,7 @@ const products = [
         price: 180,
         image: "/assets/products/Rick&Morty-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 49,
@@ -342,6 +390,7 @@ const products = [
         price: 130,
         image: "/assets/products/Adventure-Time-Pins.jpg",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 50,
@@ -349,6 +398,7 @@ const products = [
         price: 212,
         image: "/assets/products/CheckeredShirt.png",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 51,
@@ -356,6 +406,7 @@ const products = [
         price: 145,
         image: "/assets/products/regular-show-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 52,
@@ -363,6 +414,7 @@ const products = [
         price: 80,
         image: "/assets/products/whatTimeIsIt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 53,
@@ -370,6 +422,7 @@ const products = [
         price: 210,
         image: "/assets/products/FadedSkinny_Jeans.png",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 54,
@@ -377,6 +430,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 55,
@@ -384,6 +438,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt-Back.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 56,
@@ -391,6 +446,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt_Wearing.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 57,
@@ -398,6 +454,7 @@ const products = [
         price: 212,
         image: "/assets/products/PoloContrast_Trims.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 58,
@@ -405,6 +462,7 @@ const products = [
         price: 145,
         image: "/assets/products/GradientGraphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 59,
@@ -412,6 +470,7 @@ const products = [
         price: 180,
         image: "/assets/products/PoloTipping_Details.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 60,
@@ -419,6 +478,7 @@ const products = [
         price: 120,
         image: "/assets/products/BlackStriped_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 61,
@@ -426,6 +486,7 @@ const products = [
         price: 120,
         image: "/assets/products/Gumball.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 62,
@@ -433,6 +494,7 @@ const products = [
         price: 240,
         image: "/assets/products/Benson-CrashOut.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 63,
@@ -440,6 +502,7 @@ const products = [
         price: 180,
         image: "/assets/products/Rick&Morty-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 64,
@@ -447,6 +510,7 @@ const products = [
         price: 130,
         image: "/assets/products/Adventure-Time-Pins.jpg",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 65,
@@ -454,6 +518,7 @@ const products = [
         price: 212,
         image: "/assets/products/VerticalStriped_Shirt.png",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 66,
@@ -461,6 +526,7 @@ const products = [
         price: 145,
         image: "/assets/products/regular-show-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 67,
@@ -468,6 +534,7 @@ const products = [
         price: 80,
         image: "/assets/products/whatTimeIsIt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 68,
@@ -475,6 +542,7 @@ const products = [
         price: 210,
         image: "/assets/products/FadedSkinny_Jeans.png",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 69,
@@ -482,6 +550,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 70,
@@ -489,6 +558,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt-Back.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 71,
@@ -496,6 +566,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt_Wearing.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 72,
@@ -503,6 +574,7 @@ const products = [
         price: 212,
         image: "/assets/products/PoloContrast_Trims.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 73,
@@ -510,6 +582,7 @@ const products = [
         price: 145,
         image: "/assets/products/GradientGraphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 74,
@@ -517,6 +590,7 @@ const products = [
         price: 180,
         image: "/assets/products/PoloTipping_Details.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 75,
@@ -524,6 +598,7 @@ const products = [
         price: 120,
         image: "/assets/products/BlackStriped_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 76,
@@ -531,6 +606,7 @@ const products = [
         price: 120,
         image: "/assets/products/Gumball.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 77,
@@ -538,6 +614,7 @@ const products = [
         price: 240,
         image: "/assets/products/Benson-CrashOut.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 78,
@@ -545,6 +622,7 @@ const products = [
         price: 180,
         image: "/assets/products/Rick&Morty-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 79,
@@ -552,6 +630,7 @@ const products = [
         price: 130,
         image: "/assets/products/Adventure-Time-Pins.jpg",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 80,
@@ -559,6 +638,7 @@ const products = [
         price: 212,
         image: "/assets/products/VerticalStriped_Shirt.png",
         category: "Shirt",
+        desc: "This Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     },
     {
         id: 81,
@@ -566,6 +646,7 @@ const products = [
         price: 145,
         image: "/assets/products/regular-show-Tshirt.jpg",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 82,
@@ -573,6 +654,7 @@ const products = [
         price: 80,
         image: "/assets/products/LooseFit-Bermuda_Shorts.png",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 83,
@@ -580,6 +662,7 @@ const products = [
         price: 210,
         image: "/assets/products/BlueJeans.jpg",
         category: "Jeans",
+        desc: "MADE FOR HOW YOU MOVE. Motion, versatility, and performance are exactly what puts the Extreme Motion Relaxed Straight Leg jeans in a league of their own. They're crafted for all-day comfort from a blend of cotton and performance stretch.",
     },
     {
         id: 84,
@@ -587,6 +670,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 85,
@@ -594,6 +678,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt-Back.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 86,
@@ -601,6 +686,7 @@ const products = [
         price: 260,
         image: "/assets/products/OneLife-Graphic_T-shirt_Wearing.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 87,
@@ -608,6 +694,7 @@ const products = [
         price: 212,
         image: "/assets/products/PoloContrast_Trims.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 88,
@@ -615,6 +702,7 @@ const products = [
         price: 145,
         image: "/assets/products/GradientGraphic_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     {
         id: 89,
@@ -622,6 +710,7 @@ const products = [
         price: 180,
         image: "/assets/products/PoloTipping_Details.png",
         category: "Polo",
+        desc: "Men's athletic polo shirt the ring buckle design under the placket is convenient for carrying sunglasses/microphones. Sleeve pocket design makes it easy to carry small items such as keys/headphones",
     },
     {
         id: 90,
@@ -629,6 +718,7 @@ const products = [
         price: 120,
         image: "/assets/products/BlackStriped_T-shirt.png",
         category: "T-shirt",
+        desc: "This T-shirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     },
     // 
     {
