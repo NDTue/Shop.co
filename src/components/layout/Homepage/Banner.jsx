@@ -37,7 +37,7 @@ function Banner(props) {
 
                 {/* Right Col */}
                 <div className="object-contain flex justify-center items-center">
-                    <img className='' src="/public/assets/products/Main_Couple_Fill_2.png" alt="" />
+                    <img className='' src="/public/assets/products/Main_Couple.png" alt="" />
                 </div>
             </div>
 
