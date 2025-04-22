@@ -74,11 +74,10 @@ function Header({ props }) {
                                 <ul className='group-hover:block hidden absolute top-10 left-2 bg-white w-28
                                             rounded-3xl shadow-2xl overflow-hidden'>
                                     <li className='hover:bg-slate-100'>
-                                        <Link to='/category/shirts' className='block p-2'>Shirts</Link>
-                                    </li>
-                                    {/* t muốn bấm vô mấy cái link ni là hiện ra trang của đường dẫn ni luôn */}
-                                    <li className='hover:bg-slate-100'>
                                         <Link to='/category/t-shirts' className='block p-2'>T-Shirts</Link>
+                                    </li>
+                                    <li className='hover:bg-slate-100'>
+                                        <Link to='/category/shirts' className='block p-2'>Shirts</Link>
                                     </li>
                                     <li className='hover:bg-slate-100'>
                                         <Link to='/category/jeans' className='block p-2'>Jeans</Link>
@@ -119,10 +118,10 @@ function Header({ props }) {
                             <ul className='group-hover:block hidden absolute top-6 -left-2 bg-white w-28
                                         rounded-xl shadow-2xl overflow-hidden mt-2'>
                                 <li className='hover:bg-slate-100'>
-                                    <Link to='/category/shirts' className='block p-2'>Shirts</Link>
+                                    <Link to='/category/t-shirts' className='block p-2'>T-Shirts</Link>
                                 </li>
                                 <li className='hover:bg-slate-100'>
-                                    <Link to='/category/t-shirts' className='block p-2'>T-Shirts</Link>
+                                    <Link to='/category/shirts' className='block p-2'>Shirts</Link>
                                 </li>
                                 <li className='hover:bg-slate-100'>
                                     <Link to='/category/jeans' className='block p-2'>Jeans</Link>
