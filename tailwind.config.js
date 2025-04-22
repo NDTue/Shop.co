@@ -7,7 +7,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // integral: ["Integral", 'sans-serif'],
         satoshi: ['Satoshi', 'sans-serif'], // font-satoshi
       },
       colors: {
