@@ -23,7 +23,7 @@ function ProductCard({ product }) {
     const slug = generateSlug(product.name)
 
     return (
-        <Link to={`/product/${slug}`} className='w-full'>
+        <Link to={`/category/${slug}`} className='w-full'>
             <div className="aspect-square overflow-hidden rounded-3xl"> {/* Thêm container với tỷ lệ 1:1 */}
                 <img
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
