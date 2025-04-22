@@ -30,7 +30,7 @@ function AppRoutes(props) {
                 <Route path='/category/polos' element={<Polos />} />
 
                 {/* Product Detail */}
-                <Route path='/product/:slug' element={<ProductDetail />} />
+                <Route path='/category/:slug' element={<ProductDetail />} />
 
 
 
