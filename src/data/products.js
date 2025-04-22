@@ -22,7 +22,7 @@ const products = [
     },
     {
         id: 4,
-        name: "Depop Men's T-shirt",
+        name: "Adventure Time Tshirt",
         price: 130,
         image: "public/assets/products/whatTimeIsIt.jpg",
         category: "T-shirt",
