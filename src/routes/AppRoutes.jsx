@@ -14,14 +14,12 @@ function AppRoutes(props) {
     return (
         <>
             <Routes>
-
+                {/* Main Pages */}
                 <Route path='/' element={<Homepage />} />
                 <Route path='login' element={<ValidateForm />} />
-                {/* <Route path='/cart' element={<Cart />} />
-                <Route path='/product' element={<ProductDetail />} /> */}
-
-                {/* Product List */}
-                <Route path='/category' element={<Category />} />
+                <Route path='/cart' element={<Cart />} />
+                <Route path='/category' element={<Category />} /> {/* Product List */}
+                <Route path='/category/:slug' element={<ProductDetail />} /> {/* Product Detail Info */}
 
                 {/* Filter Product */}
                 <Route path='/category/shirts' element={<Shirts />} />
@@ -29,17 +27,6 @@ function AppRoutes(props) {
                 <Route path='/category/jeans' element={<Jeans />} />
                 <Route path='/category/polos' element={<Polos />} />
 
-                {/* Product Detail */}
-                <Route path='/category/:slug' element={<ProductDetail />} />
-
-
-
-
-                {/* Categories */}
-                {/* <Route path='/Shirts' element={<Shirts />} />
-                <Route path='/T-Shirts' element={<T_Shirts />} />
-                <Route path='/Jeans' element={<Jeans />} />
-                <Route path='/Polos' element={<Polos />} /> */}
 
             </Routes>
         </>
