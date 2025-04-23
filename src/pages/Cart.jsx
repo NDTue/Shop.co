@@ -2,8 +2,11 @@ import React from 'react';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import { Link } from 'react-router-dom';
+import { useCart } from '../components/layout/Cart/CartContext';
+import CartOrder from '../components/layout/Cart/CartOrder';
 
 function Cart(props) {
+
     return (
         <>
             <Header />
@@ -27,21 +30,7 @@ function Cart(props) {
                     </div>
                 </nav>
 
-                <section className=''>
-                    <div className='max-w-96 md:max-w-[78rem] my-0 mx-auto'>
-                        <h1 className='font-extrabold text-3xl'>YOUR CART</h1>
-                        <div className="grid grid-cols-1 md:grid-cols-2">
-                            {/* Product Items */}
-                            <div className="">
-                                
-                            </div>
-                            {/* Order Summary */}
-                            <div className="">
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <CartOrder/>
             </main>
             <div className="h-[500px]"></div>
             <Footer />
