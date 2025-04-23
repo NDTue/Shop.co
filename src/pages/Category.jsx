@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
-import BreadCrumb from '../components/common/BreadCrumb';
 import { Link } from 'react-router-dom';
 import ProductList from '../components/product/ProductList';
 import products from '../data/products';
