@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { useCart } from '../Cart/CartContext';
 
 ProductInfo.propTypes = {
     product: PropTypes.shape({
@@ -16,6 +17,7 @@ function ProductInfo({ product }) {
     // State cho màu sắc, kích thước và số lượng
     const [selectedSize, setSelectedSize] = useState('Large')
     const [quantity, setQuantity] = useState(1)
+    const {addToCart} = useCart() // truy cập hàm addToCart
 
     // Mảng chứa các kích thước có sẵn
     const sizes = ['Small', 'Medium', 'Large', 'X-Large']
@@ -82,7 +84,7 @@ function ProductInfo({ product }) {
                     </div>
                     <hr className='w-full mx-auto' />
 
-                    {/* Quantity - Cart */}
+                    {/* Quantity & Add Button */}
                     <div className="flex gap-4">
                         <div className="flex items-center">
                             <button className="w-12 h-12 flex items-center justify-center bg-[#F0F0F0] rounded-l-full hover:bg-gray-200"
@@ -103,8 +105,10 @@ function ProductInfo({ product }) {
                                 </svg>
                             </button>
                         </div>
-                        {/* Cart */}
-                        <button className="flex-1 bg-black text-white py-3 px-6 rounded-full hover:opacity-80 transition-opacity">
+                        {/* Button Add */}
+                        <button className="flex-1 bg-black text-white py-3 px-6 rounded-full hover:opacity-80 transition-opacity"
+                            onClick={() => addToCart(product)}
+                        >
                             Add to Cart
                         </button>
                     </div>
