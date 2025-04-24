@@ -6,18 +6,18 @@ import { BrowserRouter, HashRouter } from 'react-router-dom'
 import { CartProvider } from './components/layout/Cart/CartContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
-  //   <BrowserRouter>
-  //     <CartProvider>
-  //       <App />
-  //     </CartProvider>
-  //   </BrowserRouter>
-  // </StrictMode>,
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter basename='/Shop.co/'>
       <CartProvider>
         <App />
       </CartProvider>
-    </HashRouter>
+    </BrowserRouter>
   </StrictMode>,
+  // <StrictMode>
+  //   <HashRouter>
+  //     <CartProvider>
+  //       <App />
+  //     </CartProvider>
+  //   </HashRouter>
+  // </StrictMode>,
 )
