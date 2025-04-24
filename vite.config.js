@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Shop.co/',
+  build: {
+    assetsDir: 'assets', // Thư mục chứa assets
+  }
 })
