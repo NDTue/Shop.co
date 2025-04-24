@@ -34,13 +34,21 @@ function ProductInfo({ product }) {
         addToCart(product, quantity)
     }
 
+    // Hàm helper để xử lý đường dẫn ảnh
+    const getImageUrl = (path) => {
+        // Xử lý cho cả môi trường development và production
+        return path.startsWith('assets/')
+            ? import.meta.env.BASE_URL + path
+            : path;
+    }
+
     return (
         <section className="max-w-96 md:max-w-[78rem] mx-auto px-4 md:px-0">
             <div className="grid grid-cols-1 md:grid-cols-[1fr,1.5fr] gap-8 md:gap-16">
                 {/* Left Col - Product Image */}
                 <div className="aspect-square overflow-hidden rounded-3xl bg-[#F2F2F2]">
                     <img className="w-full h-full"
-                        src={product.image}
+                        src={getImageUrl(product.image)}
                         alt={product.name}
                     />
                 </div>
