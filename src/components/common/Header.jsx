@@ -115,7 +115,7 @@ function Header({ props }) {
                             {/* Sub Nav */}
                             <ul className='absolute top-6 -left-2 bg-white w-28 rounded-xl shadow-2xl overflow-hidden mt-2 
                                     opacity-0 translate-y-[10px] transition-all duration-200 ease-in-out 
-                                    group-hover:opacity-100 group-hover:translate-y-0'>
+                                    group-hover:opacity-100 group-hover:translate-y-0 pointer-events-none group-hover:pointer-events-auto'>
                                 <li className='hover:bg-slate-100'>
                                     <Link to='/category/t-shirts' className='block p-2'>T-Shirts</Link>
                                 </li>
