@@ -15,7 +15,7 @@ function Banner(props) {
                     </p>
 
                     {/* Button */}
-                    <Link to='/category'>
+                    <Link to='/category' className='w-full'>
                         <button className="bg-black hover:opacity-50 mb-5 w-full h-14 md:w-52 md:h-14 text-white rounded-full">
                             Shop Now
                         </button>
