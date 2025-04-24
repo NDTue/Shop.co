@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Banner(props) {
     return (
@@ -14,9 +15,11 @@ function Banner(props) {
                     </p>
 
                     {/* Button */}
-                    <button className="bg-black hover:opacity-50 mb-5 w-full h-14 md:w-52 md:h-14 text-white rounded-full">
-                        Shop Now
-                    </button>
+                    <Link to='/category'>
+                        <button className="bg-black hover:opacity-50 mb-5 w-full h-14 md:w-52 md:h-14 text-white rounded-full">
+                            Shop Now
+                        </button>
+                    </Link>
 
                     {/* Statistics */}
                     <div className="flex flex-row flex-wrap justify-center items-stretch">
