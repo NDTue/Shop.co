@@ -62,7 +62,7 @@ function Jeans(props) {
                 {/* Products */}
                 <section className="max-w-96 md:max-w-[78rem] mx-auto px-4">
                     <div className="flex justify-between items-center mb-5">
-                        <h1 className="text-5xl font-bold">Jeans</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold">Jeans</h1>
                         <p className="text-sm md:text-base">
                             Showing {startIndex + 1} – {Math.min(startIndex + productsPerPage, filteredProducts.length)} of {filteredProducts.length} products
                         </p>
