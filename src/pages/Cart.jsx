@@ -12,7 +12,7 @@ function Cart(props) {
             <Header />
             <main>
                 {/* Bread Crumb */}
-                <nav className="pt-24 md:pt-36 mb-4 md:mb-5">
+                <nav className="pt-24 md:pt-36">
                     <div className='flex flex-row justify-between items-center md:gap-10 max-w-96 md:max-w-[78rem] my-0 mx-auto xl:mx-auto md:ml-16 md:mr-16'>
                         <ol className="flex items-center whitespace-nowrap">
                             <li className="inline-flex items-center">
@@ -32,7 +32,6 @@ function Cart(props) {
 
                 <CartOrder/>
             </main>
-            <div className="h-[500px]"></div>
             <Footer />
         </>
     );
