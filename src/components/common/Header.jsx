@@ -113,8 +113,9 @@ function Header({ props }) {
 
                             </label>
                             {/* Sub Nav */}
-                            <ul className='group-hover:block hidden absolute top-6 -left-2 bg-white w-28
-                                        rounded-xl shadow-2xl overflow-hidden mt-2'>
+                            <ul className='absolute top-6 -left-2 bg-white w-28 rounded-xl shadow-2xl overflow-hidden mt-2 
+                                    opacity-0 translate-y-[10px] transition-all duration-200 ease-in-out 
+                                    group-hover:opacity-100 group-hover:translate-y-0'>
                                 <li className='hover:bg-slate-100'>
                                     <Link to='/category/t-shirts' className='block p-2'>T-Shirts</Link>
                                 </li>
@@ -129,8 +130,8 @@ function Header({ props }) {
                                 </li>
                             </ul>
                         </li>
-                        <Link to='/category'>Shop</Link>
-                        <li><a href="#new-arrivals">On Sale</a></li>
+                        <Link to='/category' className='py-2 hover:shadow-[0_2px_0_0_currentColor] transition-all duration-200 ease-in'>Shop</Link>
+                        <li><a href="#new-arrivals" className='py-2 hover:shadow-[0_2px_0_0_currentColor] transition-all duration-200 ease-in'>On Sale</a></li>
                     </ul>
 
                     <div className="flex justify-between items-center gap-3 md:flex-grow">
@@ -149,8 +150,8 @@ function Header({ props }) {
 
 
                         {/* Cart */}
-                        <CartIcon/>
-                        
+                        <CartIcon />
+
                         {/* Avatar */}
                         <Link to='/login'>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
