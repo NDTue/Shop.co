@@ -46,7 +46,8 @@ function Footer(props) {
                             {/* Row 1 for mobile - 2 buttons */}
                             <div className="flex md:flex-row w-full md:w-auto md:mr-8">
                                 {/* LinkedIn */}
-                                <a className="w-1/2 md:w-7 h-7 rounded-full bg-white border border-[#ccc] flex items-center justify-center hover:opacity-50 mr-3 py-5 md:p-5"
+                                <a className="w-1/2 md:w-7 h-7 rounded-full bg-white border border-[#ccc] flex items-center justify-center 
+                                    transition-transform duration-200 hover:scale-110 mr-3 py-5 md:p-5"
                                     target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/duc-tue-nguyen/"
                                 >
                                     <i className="fa-brands fa-linkedin-in"></i>
@@ -54,7 +55,8 @@ function Footer(props) {
                                 </a>
 
                                 {/* GitHub */}
-                                <a className="w-1/2 md:w-7 h-7 rounded-full bg-white border border-[#ccc] flex items-center justify-center hover:opacity-50 py-5 md:p-5"
+                                <a className="w-1/2 md:w-7 h-7 rounded-full bg-white border border-[#ccc] flex items-center justify-center 
+                                    transition-transform duration-200 hover:scale-110 py-5 md:p-5"
                                     target="_blank" rel="noopener noreferrer" href="https://github.com/NDTue"
                                 >
                                     <i className="fa-brands fa-github"></i>
@@ -63,7 +65,9 @@ function Footer(props) {
                             </div>
 
                             {/* Figma */}
-                            <a className="w-full md:w-auto md:flex-1 md:max-w-none h-7 rounded-full md:rounded-lg bg-black border border-[#ccc] flex items-center justify-center hover:opacity-50 py-5 md:p-5"
+                            <a className="w-full md:w-auto md:flex-1 md:max-w-none h-7 rounded-full md:rounded-lg bg-black 
+                                border border-[#ccc] flex items-center justify-center hover:scale-105 py-5 md:p-5
+                                transition-transform duration-200"
                                 target="_blank" rel="noopener noreferrer" href="https://www.figma.com/community/file/1273571982885059508"
                             >
                                 <span className="text-white text-sm">View Figma Template</span>
