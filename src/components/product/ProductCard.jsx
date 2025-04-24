@@ -22,12 +22,20 @@ function ProductCard({ product }) {
     )
     const slug = generateSlug(product.name)
 
+    // Hàm helper để xử lý đường dẫn ảnh
+    const getImageUrl = (path) => {
+        // Xử lý cho cả môi trường development và production
+        return path.startsWith('assets/')
+            ? import.meta.env.BASE_URL + path
+            : path;
+    }
+
     return (
         <Link to={`/category/${slug}`} className='w-full'>
             <div className="aspect-square overflow-hidden rounded-3xl"> {/* Thêm container với tỷ lệ 1:1 */}
                 <img
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
-                    src={product.image}
+                    src={getImageUrl(product.image)}
                     alt={product.name}
                 />
             </div>
