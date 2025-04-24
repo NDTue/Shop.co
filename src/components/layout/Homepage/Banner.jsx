@@ -15,8 +15,8 @@ function Banner(props) {
                     </p>
 
                     {/* Button */}
-                    <Link to='/category' className='w-full'>
-                        <button className="bg-black hover:opacity-50 mb-5 w-full h-14 md:w-52 md:h-14 text-white rounded-full">
+                    <Link to='/category' className='w-full md:w-0'>
+                        <button className="bg-black transition-transform duration-300 hover:scale-105 mb-5 w-full h-14 md:w-52 md:h-14 text-white rounded-full">
                             Shop Now
                         </button>
                     </Link>
