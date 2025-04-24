@@ -15,7 +15,7 @@ function DressStyle(props) {
                     <div className="relative w-80 flex mx-auto max-w-sm h-60 rounded-xl overflow-hidden md:w-[30%] md:max-w-none">
                         <img
                             className="w-full h-full object-cover"
-                            src="/assets/products/Casual.png"
+                            src="assets/products/Casual.png"
                             alt="Casual"
                         />
                         <div className="absolute top-5 left-5 z-10 text-3xl font-semibold">
@@ -27,7 +27,7 @@ function DressStyle(props) {
                     <div className="relative w-80 flex mx-auto max-w-sm h-60 rounded-xl overflow-hidden mt-5 md:mt-0 md:w-[70%] md:max-w-none">
                         <img
                             className="w-full h-full object-cover"
-                            src="/assets/products/Formal.png"
+                            src="assets/products/Formal.png"
                             alt="Formal"
                         />
                         <div className="absolute top-5 left-5 z-10 text-3xl font-semibold">
@@ -42,7 +42,7 @@ function DressStyle(props) {
                     <div className="relative w-80 flex mx-auto max-w-sm h-60 rounded-xl overflow-hidden mt-5 md:mt-0 md:w-[70%] md:max-w-none">
                         <img
                             className="w-full h-full object-cover"
-                            src="/assets/products/Party.png"
+                            src="assets/products/Party.png"
                             alt="Party"
                         />
                         <div className="absolute top-5 left-5 z-10 text-3xl font-semibold">
@@ -54,7 +54,7 @@ function DressStyle(props) {
                     <div className="relative w-80 flex mx-auto max-w-sm h-60 rounded-xl overflow-hidden mt-5 md:mt-0 md:w-[30%] md:max-w-none">
                         <img
                             className="w-full h-full object-cover"
-                            src="/assets/products/Gym.png"
+                            src="assets/products/Gym.png"
                             alt="Gym"
                         />
                         <div className="absolute top-5 left-5 z-10 text-3xl font-semibold">
