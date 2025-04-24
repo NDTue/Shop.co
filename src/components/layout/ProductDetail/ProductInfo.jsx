@@ -17,13 +17,22 @@ function ProductInfo({ product }) {
     // State cho màu sắc, kích thước và số lượng
     const [selectedSize, setSelectedSize] = useState('Large')
     const [quantity, setQuantity] = useState(1)
-    const {addToCart} = useCart() // truy cập hàm addToCart
+    const { addToCart } = useCart() // truy cập hàm addToCart
 
     // Mảng chứa các kích thước có sẵn
     const sizes = ['Small', 'Medium', 'Large', 'X-Large']
 
+    // Giảm số lượng nhưng không nhỏ hơn 1
     const handleSubtract = () => setQuantity(Math.max(1, quantity - 1))
+
+    // Tăng số lượng
     const handlePlus = () => setQuantity(quantity + 1)
+
+    // Xử lý thêm vào giỏ hàng với số lượng đã chọn
+    const handleAddToCart = () => {
+        // Truyền thêm tham số quantity để thêm đúng số lượng sản phẩm đã chọn
+        addToCart(product, quantity)
+    }
 
     return (
         <section className="max-w-96 md:max-w-[78rem] mx-auto px-4 md:px-0">
@@ -107,7 +116,7 @@ function ProductInfo({ product }) {
                         </div>
                         {/* Button Add */}
                         <button className="flex-1 bg-black text-white py-3 px-6 rounded-full hover:opacity-80 transition-opacity"
-                            onClick={() => addToCart(product)}
+                            onClick={handleAddToCart} // Sử dụng hàm đã định nghĩa để add với số lượng đã chọn
                         >
                             Add to Cart
                         </button>
