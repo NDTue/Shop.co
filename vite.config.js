@@ -11,8 +11,8 @@ const isGitHubPages = process.env.NODE_ENV === "production" && process.env.VERCE
 
 export default defineConfig({
   plugins: [react()],
-  // base: "/Shop.co/",
-  base: "/",
+  base: "/Shop.co/",
+  // base: "/",
   build: {
     assetsDir: 'assets', // Thư mục chứa assets
   }
